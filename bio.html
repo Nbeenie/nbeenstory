@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio</title>
+    <!-- 구글폰트 - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+    <!-- Pretendard 폰트 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <!--<link rel="stylesheet" href="C:\Users\82104\Desktop\유레카\style_bio.css">-->
+
+    <style> 
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color:aliceblue
+        }    
+
+        html, body {
+            font-family: 'Montserrat', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+        }
+
+        .logo {
+            color: #ed5c28;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .logo span {
+            color: #ed5c28;
+        }
+
+        #logo {
+            text-decoration: none;
+        }
+
+        #menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        #menu li {
+            display: inline-block;
+        }
+
+        #menu a {
+            text-decoration: none;
+            display: block;
+            padding: 25px;
+            font-weight: bold;
+            color: #6072e8;
+        }
+
+
+        footer {
+            text-align: center;
+        }
+
+
+
+        /**.container {
+            width: 1200px;
+            margin: 0 auto;
+        } 가운데 정렬 **/
+
+        #header-wrapper {
+            background-size: 100%;
+            padding: 1em 0em 1em 0em; /**이거하니까 로고 부분 크기 늘어남. 크기 조절 패딩으로?**/
+        }
+
+        #menu-wrapper {
+            border-top: 0.5px solid black;
+            border-bottom: 0.5px solid black;
+
+        }
+
+        .introduce {
+            justify-content: center;
+        }
+
+
+       
+        .specific ul {
+            list-style: none;
+        }
+
+
+        .bio {
+            margin: auto;
+            width: 50%;
+            padding: 8px;
+        }
+
+        img {
+            width: 100%;
+            height: 40%;
+        }
+
+       
+        .specific {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-left: 0;
+        }
+
+
+        /**.keywords {
+            padding-right: 1em;
+        }**/
+
+        /**.code {
+            float: right;
+            padding-right: 13em;
+        }**/
+
+
+    
+
+
+    </style>
+</head>
+<body>
+    <div id="wrapper"> 
+
+        <div id="header-wrapper"> <!--맨위로고-->
+            <div id="header" class="container">
+                <div>
+                    <h1 class="logo"><a id="logo" href="index.html">Nbeen<span>Story</span></a></h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu-wrapper"> <!--네비게이션-->
+            <div id="menu" class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bio.html">Bio</a></li>
+                    <li><a href="book.html">Book</a></li>
+                    <li><a href="favorite.html">Favorite</a></li>
+                    <li><a href="knowledge.html">Knowledge Base</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div  class="bio"> 
+            <h2 class="introduce">About Me | 이름 임은빈, 나이 22세. 현재 국민대학교 경영정보학과에 재학 중</h2>
+            <p class="introduce">2001년 4월 11일 경기도에서 태어나 서울 마포에서 자랐다. 국민대학교 경영정보학과에 22학번으로 입학하였다. 관심분야는 컴퓨터 프로그래밍이고 희망진로는 백엔드 개발이다.</p>
+            <br>
+
+            <div class="specific">
+                <img class="code" src="https://cdn.thewirecutter.com/wp-content/media/2022/10/chromebook-2048-7190.jpeg" width="800px" height=300px">
+
+                
+                    <div class="keywords">
+                        
+                    </div>
+                
+            
+                <!--<div class="plans">
+                    <strong>winter plans:</strong><br>
+                    자바 스터디<br>
+                    코딩테스트 문제풀이<br>
+                    한자5급시험 준비<br>
+                    cs지식 공부-자료구조<br>
+                    토익 준비<br>
+                </div>-->
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <br>
+<hr>
+<p> 
+<footer>Copyright &copy; Eunbeen Lim, school of MIS 2022</footer>
+</body> 
+</html>
