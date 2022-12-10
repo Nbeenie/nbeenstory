@@ -70,10 +70,6 @@
             text-align: center;
         }
 
-       img {
-        float: left;
-        padding-left: 24em;
-       }
 
         /**.container {
             width: 1200px;
@@ -89,6 +85,29 @@
             border-top: 0.5px solid black;
             border-bottom: 0.5px solid black;
 
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+        }
+
+        .single {
+            padding: 20px;
+        }
+
+        h2 {
+            position: relative;
+            text-align: center;
         }
 
        
@@ -121,7 +140,23 @@
     
     </div>
 
-    <table>
+
+    <div class="images">
+        <div class="single">
+            <a href="fav_music.html"><img src="https://www.shareicon.net/data/2017/06/17/887174_music_512x512.png"></a>
+            <h2>Music</h2>
+        </div>
+        <div class="single">
+            <a href="fav_bicycle.html"><img src="https://cdn-icons-png.flaticon.com/512/2972/2972185.png"></a>
+            <h2>Bicycle</h2>
+        </div>
+        <div class="single">
+            <a href="fav_ott.html"><img src="https://icons.iconarchive.com/icons/flat-icons.com/flat/512/Flat-TV-icon.png"></a>
+            <h2>OTT</h2>
+        </div>
+    </div>
+
+    <!--<table>
         <tr>
             <td width="30%">
                 <img src="https://images.macrumors.com/t/vMbr05RQ60tz7V_zS5UEO9SbGR0=/1600x900/smart/article-new/2018/05/apple-music-note.jpg" width="50%">
@@ -157,7 +192,7 @@
                 <a href="fav_ott.html">Click and See</a>
             </td>
         </tr>
-    </table>
+    </table>-->
 
     <br>
     <hr>
